@@ -8,7 +8,7 @@ local entity = Spawner.createEntity({
     CustomName = "A-60'",
     Model = "rbxassetid://11801716344", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
     Speed = 99999,
-    MoveDelay = 5,
+    MoveDelay = 3,
     HeightOffset = 4,
     CanKill = true,
     KillRange = 100,
@@ -16,11 +16,11 @@ local entity = Spawner.createEntity({
     ShatterLights = true,
     FlickerLights = {
         Enabled = true,
-        Duration = 1
+        Duration = 3
     },
     Cycles = {
-        Min = 4,
-        Max = 4,
+        Min = 1,
+        Max = 1,
         Delay = 3
     },
     CamShake = {
